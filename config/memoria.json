@@ -1,0 +1,7 @@
+{
+ "margen_gb": 1.0,
+ "inactividad_minutos": 15,
+ "espera_tras_500_segundos": 60,
+ "cerrables": ["chrome.exe", "msedge.exe"],
+ "franja_cierre": [2, 6]
+}

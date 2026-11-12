@@ -1,0 +1,12 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [
+  "solo hay ilustraciones numericas de un modelo, no un backtest"
+ ],
+ "motivo": "Modelo teorico de juego diferencial sobre la operativa alrededor de la reconstitucion de indices; no da reglas operativas concretas."
+}

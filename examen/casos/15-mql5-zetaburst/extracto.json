@@ -1,0 +1,15 @@
+{
+ "operable": "si",
+ "tipo": "ruptura",
+ "mercado": [
+  "forex"
+ ],
+ "plazo": "",
+ "extracto": "A move only counts as tradeable if it's a genuine outlier against that baseline: a z-score measured against the last InpStatsSampleCount window of returns, 3.0 standard deviations by default. Two modes ship with it. Momentum trades with the burst direction. Reversion trades against it. take-profit at 0.35x ATR, stop-loss at 0.55x ATR",
+ "prometido": {},
+ "alarmas": [
+  "this is one backtest period, tuned and tested against itself",
+  "NZDUSD queda con un 51% de drawdown y el propio autor desaconseja el par",
+  "la señal se mide sobre una ventana de 4 segundos de ticks, por debajo de cualquier vela"
+ ]
+}

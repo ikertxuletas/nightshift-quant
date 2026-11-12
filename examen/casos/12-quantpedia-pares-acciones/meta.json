@@ -1,0 +1,11 @@
+{
+ "titulo": "pairs-trading-with-stocks",
+ "fuente": "quantpedia",
+ "agentes": [
+  "lector",
+  "formalizador"
+ ],
+ "url": "https://quantpedia.com/strategies/pairs-trading-with-stocks",
+ "cita": "pairs-trading-with-stocks",
+ "doc_id": 25
+}

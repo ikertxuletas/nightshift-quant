@@ -1,0 +1,21 @@
+{
+ "operable": "incompleta",
+ "tipo": "otro",
+ "mercado": [
+  "indice"
+ ],
+ "plazo": "D1",
+ "extracto": "Under realistic backtesting with 10 basis point transaction costs, WaVeFuse's directional strategy achieves a mean Sharpe ratio of 3.69 across four markets and limits maximum drawdown to 7.5% during the COVID-19 crash",
+ "prometido": {
+  "sharpe": 3.69,
+  "drawdown": -7.5,
+  "con_costes": true,
+  "periodo": "2010-2023",
+  "cita": "WaVeFuse's directional strategy achieves a mean Sharpe ratio of 3.69 across four markets and limits maximum drawdown to 7.5%"
+ },
+ "alarmas": [
+  "un sharpe medio de 3.69 sobre indices diarios es poco creible",
+  "la señal la produce una red neuronal cuyos pesos no se publican"
+ ],
+ "motivo": "La direccion la decide un modelo de aprendizaje profundo: se conoce el resultado pero no la regla de entrada, asi que no se puede reproducir."
+}

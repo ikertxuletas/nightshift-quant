@@ -1,0 +1,50 @@
+{
+ "id": "tendencia-clases-activo-faber",
+ "titulo": "Seguimiento de tendencia por clase de activo (Faber)",
+ "fuente": {
+  "url": "https://quantpedia.com/strategies/asset-class-trend-following",
+  "cita": "asset-class-trend-following"
+ },
+ "tipo": "tendencia",
+ "forma": "serie_temporal",
+ "universo": {
+  "instrumentos": [
+   "SPY",
+   "EFA",
+   "TLT",
+   "GLD"
+  ],
+  "plazo": "D1"
+ },
+ "entrada": {
+  "largo": {
+   ">": [
+    "close",
+    "SMA(200)"
+   ]
+  }
+ },
+ "salida": {
+  "largo": {
+   "<": [
+    "close",
+    "SMA(200)"
+   ]
+  }
+ },
+ "gestion": {},
+ "prometido": {
+  "cagr": 11.27,
+  "drawdown": -29.43,
+  "sharpe": 1.06,
+  "periodo": "1973-2008",
+  "cita": "Indicative Performance 11.27% per annum, Maximum Drawdown -29.43%, Sharpe Ratio 1.06"
+ },
+ "supuestos": [
+  "la media simple de diez meses se aproxima con SMA(200) sobre velas diarias",
+  "BND se sustituye por TLT y GSG por GLD porque el universo no tiene esos ETF",
+  "VNQ (REITs) no tiene equivalente en el universo y se omite",
+  "la cartera es equiponderada y sin apalancamiento"
+ ],
+ "estado": "borrador"
+}

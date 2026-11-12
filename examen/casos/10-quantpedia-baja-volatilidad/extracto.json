@@ -1,0 +1,19 @@
+{
+ "operable": "si",
+ "tipo": "volatilidad",
+ "mercado": [
+  "accion"
+ ],
+ "plazo": "D1",
+ "extracto": "The investment universe consists of global large-cap stocks (or US large-cap stocks). At the end of each month, the investor constructs equally weighted decile portfolios by ranking the stocks on the past three-year volatility of weekly returns. The investor goes long stocks in the top decile (stocks with the lowest volatility).",
+ "prometido": {
+  "cagr": 11.3,
+  "drawdown": -45.92,
+  "sharpe": 0.72,
+  "periodo": "1986-2006",
+  "cita": "Indicative Performance 11.3% per annum, Maximum Drawdown -45.92%, Sharpe Ratio 0.72"
+ },
+ "alarmas": [
+  "el propio documento avisa de que el drawdown maximo no viene en el paper"
+ ]
+}

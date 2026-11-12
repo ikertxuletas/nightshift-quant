@@ -1,0 +1,12 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [
+  "el trabajo es de observabilidad sobre contratos de evento, fuera del universo de instrumentos"
+ ],
+ "motivo": "Estudia cuando un contrato de prediccion de Kalshi queda decidido por la evidencia publica; no propone reglas de entrada ni de salida."
+}

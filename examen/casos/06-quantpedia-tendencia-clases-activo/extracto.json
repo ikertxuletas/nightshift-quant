@@ -1,0 +1,20 @@
+{
+ "operable": "si",
+ "tipo": "tendencia",
+ "mercado": [
+  "accion",
+  "materia"
+ ],
+ "plazo": "D1",
+ "extracto": "The investment universe consists of 5 ETFs (SPY - US stocks, EFA - foreign stocks, BND - bonds, VNQ - REITs, GSG - commodities), and portfolio is equally weighted. Hold each asset class ETF only when it is over its ten month Simple Moving Average, otherwise stay in cash.",
+ "prometido": {
+  "cagr": 11.27,
+  "drawdown": -29.43,
+  "sharpe": 1.06,
+  "periodo": "1973-2008",
+  "cita": "Indicative Performance 11.27% per annum, Maximum Drawdown -29.43%, Sharpe Ratio 1.06"
+ },
+ "alarmas": [
+  "el rebalanceo es mensual y la media es de diez meses: la ficha trabaja con velas diarias"
+ ]
+}

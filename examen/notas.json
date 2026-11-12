@@ -1,0 +1,20 @@
+{
+ "lector": {
+  "nota": 0.6732,
+  "casos": 20,
+  "modelo": "haiku",
+  "fecha": "2026-10-29T12:42:15+00:00"
+ },
+ "formalizador": {
+  "nota": 0.6584,
+  "casos": 8,
+  "modelo": "sonnet",
+  "fecha": "2026-10-29T12:45:42+00:00"
+ },
+ "critico": {
+  "nota": 0.6,
+  "casos": 5,
+  "modelo": "sonnet",
+  "fecha": "2026-10-29T12:47:38+00:00"
+ }
+}

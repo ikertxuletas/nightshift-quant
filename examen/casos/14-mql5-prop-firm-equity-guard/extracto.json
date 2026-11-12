@@ -1,0 +1,10 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [],
+ "motivo": "Utilidad de proteccion de drawdown para retos de prop firm; vigila la cuenta pero no genera señales de entrada."
+}

@@ -1,0 +1,17 @@
+{
+ "fecha": "20260925",
+ "estado": "ok",
+ "resumen": "Noche normal y corta: precios de 580 instrumentos sin errores (22 bloqueados) y …",
+ "correo": "Que paso\nLa noche arranco a las 02:00 y termino a las 02:55, muy antes del limit…",
+ "criterios": "",
+ "paquete_bytes": 3915,
+ "notas": {
+  "critico": {
+   "aceptado": true,
+   "nota_antes": 0.7,
+   "nota_despues": 0.7
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

@@ -1,0 +1,11 @@
+{
+ "titulo": "fx-carry-trade",
+ "fuente": "quantpedia",
+ "agentes": [
+  "lector",
+  "formalizador"
+ ],
+ "url": "https://quantpedia.com/strategies/fx-carry-trade",
+ "cita": "fx-carry-trade",
+ "doc_id": 21
+}

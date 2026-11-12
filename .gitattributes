@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+config/criterios.json -text
+*.woff2 binary
+*.ico binary
+*.png binary

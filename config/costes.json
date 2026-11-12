@@ -1,0 +1,31 @@
+{
+  "_doc": "Fracciones por lado sobre el nocional. swap_pct_anual: fracción anual. Contrastado 2026-09-15 contra tarifas públicas (ver task-4-report.md para detalle de fuentes y conversiones): darwinex forex comision_pct=0.000025 coincide con ~2,5$/lote/lado hallado (help.darwinex.com/execution-costs, tradersunion.com); darwinex indice/materia comision_pct=0.00005 coincide con el ~0,005% del nocional hallado para indices/materias; trading212 accion comision_pct=0.0015 coincide exacto con el FX fee de 0,15% de la cuenta Invest (helpcentre.trading212.com); revolutx cripto comision_pct=0.0009 coincide exacto con la comision taker de 0,09% hallada (maker 0%) (busqueda web, pagina oficial revolut.com/legal/crypto-exchange-fees/ devolvio 403). Ningun valor publico encontrado fue mas caro que el conservador ya fijado, asi que no se ha subido ningun campo (regla asimetrica). Sin verificar con cifra exacta (se mantiene el valor conservador y se documenta aqui): spread_pct de indice/materia/accion/cripto (solo se hallaron rangos aproximados, todos por debajo del valor conservador usado), deslizamiento_pct y swap_pct_anual de todos los brokers (no publicados de forma directa). Apalancamiento no se ha tocado: todos los valores ya estan en el limite ESMA para minoristas (indices 20, forex 30, materias 10) o por debajo (acciones 1 de 5, cripto 1 de 2).",
+  "_revisado": "2026-09-15",
+  "brokers": {
+    "darwinex": {
+      "indice":  {"spread_pct": 0.0002,  "comision_pct": 0.00005,  "deslizamiento_pct": 0.0001,  "swap_pct_anual": 0.06, "apalancamiento": 20, "permite_corto": true},
+      "forex":   {"spread_pct": 0.00006, "comision_pct": 0.000025, "deslizamiento_pct": 0.00003, "swap_pct_anual": 0.03, "apalancamiento": 30, "permite_corto": true},
+      "materia": {"spread_pct": 0.0004,  "comision_pct": 0.00005,  "deslizamiento_pct": 0.0002,  "swap_pct_anual": 0.06, "apalancamiento": 10, "permite_corto": true}
+    },
+    "trading212": {
+      "accion":  {"spread_pct": 0.0005,  "comision_pct": 0.0015,   "deslizamiento_pct": 0.0002,  "swap_pct_anual": 0.0,  "apalancamiento": 1,  "permite_corto": false}
+    },
+    "revolutx": {
+      "cripto":  {"spread_pct": 0.0006,  "comision_pct": 0.0009,   "deslizamiento_pct": 0.0005,  "swap_pct_anual": 0.0,  "apalancamiento": 1,  "permite_corto": false}
+    }
+  },
+  "instrumentos": {
+    "US500": "darwinex/indice", "US100": "darwinex/indice", "US30": "darwinex/indice", "GER40": "darwinex/indice",
+    "EU50": "darwinex/indice", "UK100": "darwinex/indice", "JP225": "darwinex/indice",
+    "EURUSD": "darwinex/forex", "GBPUSD": "darwinex/forex", "USDJPY": "darwinex/forex", "USDCHF": "darwinex/forex",
+    "AUDUSD": "darwinex/forex", "USDCAD": "darwinex/forex", "NZDUSD": "darwinex/forex", "EURGBP": "darwinex/forex",
+    "EURJPY": "darwinex/forex",
+    "XAUUSD": "darwinex/materia", "XAGUSD": "darwinex/materia", "WTI": "darwinex/materia", "BRENT": "darwinex/materia",
+    "SPY": "trading212/accion", "AAPL": "trading212/accion", "MSFT": "trading212/accion",
+    "BTCUSDT": "revolutx/cripto", "ETHUSDT": "revolutx/cripto", "SOLUSDT": "revolutx/cripto",
+    "XRPUSDT": "revolutx/cripto", "ADAUSDT": "revolutx/cripto", "DOGEUSDT": "revolutx/cripto",
+    "LINKUSDT": "revolutx/cripto", "AVAXUSDT": "revolutx/cripto", "DOTUSDT": "revolutx/cripto",
+    "LTCUSDT": "revolutx/cripto"
+  },
+  "por_clase": {"accion": "trading212/accion", "cripto": "revolutx/cripto"}
+}

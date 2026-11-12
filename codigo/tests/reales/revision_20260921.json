@@ -1,0 +1,17 @@
+{
+ "fecha": "20260921",
+ "estado": "aviso",
+ "resumen": "Noche corta (02:00-02:59) y sin candidatas ni dudosas: se leyo 1 documento, se d…",
+ "correo": "Que paso\nLa noche arranco a las 02:00 y termino a las 02:59, muy por delante del…",
+ "criterios": "",
+ "paquete_bytes": 4023,
+ "notas": {
+  "critico": {
+   "aceptado": true,
+   "nota_antes": 0.7,
+   "nota_despues": 0.7
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

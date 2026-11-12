@@ -1,0 +1,10 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [],
+ "motivo": "Es una utilidad de gestion que cierra posiciones perdedoras; el propio texto dice que no es una estrategia y que nunca abre una posicion."
+}

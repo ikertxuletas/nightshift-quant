@@ -1,0 +1,12 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [
+  "el documento no tiene cuerpo, solo el titulo"
+ ],
+ "motivo": "El documento solo trae el titulo de la publicacion: no hay nada que analizar."
+}

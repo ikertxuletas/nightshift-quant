@@ -1,0 +1,20 @@
+{
+ "operable": "si",
+ "tipo": "carry",
+ "mercado": [
+  "forex"
+ ],
+ "plazo": "D1",
+ "extracto": "Create an investment universe consisting of several currencies (10-20). Go long three currencies with the highest central bank prime rates and go short three currencies with the lowest central bank prime rates. The cash not used as the margin is invested in overnight rates. The strategy is rebalanced monthly.",
+ "prometido": {
+  "cagr": 7.27,
+  "drawdown": -32.05,
+  "sharpe": 0.29,
+  "periodo": "1989-2009",
+  "cita": "Indicative Performance 7.27% per annum, Maximum Drawdown -32.05%, Sharpe Ratio 0.29"
+ },
+ "alarmas": [
+  "el resultado se calcula sobre un indice de Deutsche Bank, no sobre la cartera descrita",
+  "el ranking necesita los tipos de los bancos centrales, un dato que no esta en las velas"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "operable": "incompleta",
+ "tipo": "otro",
+ "mercado": [
+  "materia"
+ ],
+ "plazo": "H1",
+ "extracto": "AurumNeuro Vanguard is an intelligent Expert Advisor (EA) specifically designed for XAUUSD / Gold trading , combining a hybrid Neural Risk Architecture with the Unified Market Dynamics Engine (UMDE)",
+ "prometido": {},
+ "alarmas": [
+  "no hay backtest ni cifras de resultado en el documento",
+  "la red neuronal se entrena en linea, asi que el sistema no es reproducible"
+ ],
+ "motivo": "El documento describe la arquitectura del robot pero no da la regla de entrada: la direccion la decide una red neuronal entrenada en linea."
+}

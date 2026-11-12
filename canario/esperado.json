@@ -1,0 +1,16 @@
+{
+ "titulo": "Canario: tendencia SMA 200 en SPY",
+ "fuente": "canario",
+ "url": "canario://sma200-spy",
+ "extracto": {"operable": "si", "tipo": ["tendencia"], "mercado_contiene": ["accion", "indice"], "plazo": "D1"},
+ "ficha": {
+  "forma": "serie_temporal",
+  "instrumentos": ["SPY"],
+  "plazo": "D1",
+  "indicador": "SMA(200)",
+  "lados_con_indicador": ["entrada.largo", "salida.largo"],
+  "sin_corto": true
+ },
+ "critico": {"veredictos_aceptados": ["aprobada", "devolver"]},
+ "validacion": {"veredictos_aceptados": ["pasa", "dudosa", "no_pasa"]}
+}

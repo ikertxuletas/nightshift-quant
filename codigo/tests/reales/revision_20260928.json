@@ -1,0 +1,11 @@
+{
+ "fecha": "20260928",
+ "estado": "aviso",
+ "resumen": "Noche perdida por un fallo de infraestructura: Ollama responde, pero no encuentr…",
+ "correo": "Que paso\nLa noche empezó a las 02:00 y terminó a las 02:52, mucho antes de lo pr…",
+ "criterios": "",
+ "paquete_bytes": 6162,
+ "notas": {},
+ "acciones": [],
+ "error": ""
+}

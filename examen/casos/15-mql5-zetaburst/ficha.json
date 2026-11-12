@@ -1,0 +1,52 @@
+{
+ "id": "zetaburst-zscore-divisas",
+ "titulo": "Ruptura estadistica por z-score con salidas en ATR",
+ "fuente": {
+  "url": "https://www.mql5.com/en/code/77220",
+  "cita": "Free download of the 'ZetaBurst Scalper EA' expert by 'RanaAli878' for MetaTrade"
+ },
+ "tipo": "ruptura",
+ "forma": "serie_temporal",
+ "universo": {
+  "instrumentos": [
+   "EURUSD",
+   "GBPUSD",
+   "USDJPY",
+   "USDCHF",
+   "AUDUSD",
+   "USDCAD"
+  ],
+  "plazo": "M5"
+ },
+ "entrada": {
+  "largo": {
+   ">": [
+    "ZSCORE(20)",
+    3
+   ]
+  },
+  "corto": {
+   "<": [
+    "ZSCORE(20)",
+    -3
+   ]
+  }
+ },
+ "gestion": {
+  "stop": {
+   "tipo": "atr",
+   "valor": 0.55
+  },
+  "objetivo": {
+   "tipo": "atr",
+   "valor": 0.35
+  }
+ },
+ "supuestos": [
+  "el EA mide el z-score sobre una ventana de 4 segundos de ticks: se aproxima con ZSCORE(20) sobre velas M5, el plazo mas corto que admite la ficha",
+  "se toma el modo momentum, que opera en la direccion del impulso",
+  "se excluye NZDUSD porque el propio autor desaconseja el par",
+  "no hay salida por señal: las posiciones se cierran por stop o por objetivo"
+ ],
+ "estado": "borrador"
+}

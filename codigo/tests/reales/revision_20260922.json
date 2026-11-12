@@ -1,0 +1,17 @@
+{
+ "fecha": "20260922",
+ "estado": "aviso",
+ "resumen": "Noche sin investigación: la etapa investigar se omitió por 'pc ocupado' (6 docum…",
+ "correo": "Que paso\nLa noche del 22/09 terminó a las 02:47, muy antes de lo previsto (06:00…",
+ "criterios": "",
+ "paquete_bytes": 4698,
+ "notas": {
+  "critico": {
+   "aceptado": true,
+   "nota_antes": 0.7,
+   "nota_despues": 0.7
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

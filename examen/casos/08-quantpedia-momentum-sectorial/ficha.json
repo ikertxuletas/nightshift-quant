@@ -1,0 +1,39 @@
+{
+ "id": "momentum-sectorial-rotacional",
+ "titulo": "Rotacion mensual por momentum de 12 meses entre ETF de renta variable",
+ "fuente": {
+  "url": "https://quantpedia.com/strategies/sector-momentum-rotational-system",
+  "cita": "sector-momentum-rotational-system"
+ },
+ "tipo": "momentum_transversal",
+ "forma": "transversal",
+ "universo": {
+  "instrumentos": [
+   "SPY",
+   "QQQ",
+   "IWM",
+   "EFA",
+   "EEM"
+  ],
+  "plazo": "D1"
+ },
+ "transversal": {
+  "ranking": "MOM(252)",
+  "cada_barras": 21,
+  "top": 3
+ },
+ "gestion": {},
+ "prometido": {
+  "cagr": 13.94,
+  "drawdown": -46.29,
+  "sharpe": 0.54,
+  "periodo": "1928-2009",
+  "cita": "Indicative Performance 13.94% per annum, Maximum Drawdown -46.29%, Sharpe Ratio 0.54"
+ },
+ "supuestos": [
+  "el universo no tiene ETF sectoriales estadounidenses: se sustituyen por los cinco ETF de renta variable disponibles",
+  "el momentum de 12 meses se aproxima con MOM(252) sobre velas diarias",
+  "el rebalanceo mensual se aproxima con cada_barras 21"
+ ],
+ "estado": "borrador"
+}

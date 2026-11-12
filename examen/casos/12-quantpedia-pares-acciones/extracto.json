@@ -1,0 +1,20 @@
+{
+ "operable": "si",
+ "tipo": "pares",
+ "mercado": [
+  "accion"
+ ],
+ "plazo": "D1",
+ "extracto": "Pairs are formed over twelve months (formation period) and are then traded in the next six-month period (trading period). The matching partner for each stock is found by looking for the security that minimizes the sum of squared deviations between two normalized price series. Top 20 pairs with the smallest historical distance measure are then traded, and a long-short position is opened when pair prices have diverged by two standard deviations, and the position is closed when prices revert.",
+ "prometido": {
+  "cagr": 11.16,
+  "drawdown": -17,
+  "sharpe": 1.22,
+  "periodo": "1962-2002",
+  "con_costes": true,
+  "cita": "Indicative Performance 11.16% per annum, performance is after estimated transaction costs, Sharpe Ratio 1.22"
+ },
+ "alarmas": [
+  "el propio documento avisa de que el drawdown maximo no viene en el paper"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "operable": "si",
+ "tipo": "momentum_transversal",
+ "mercado": [
+  "forex"
+ ],
+ "plazo": "D1",
+ "extracto": "Create an investment universe consisting of several currencies (10-20). Go long three currencies with the highest 12-month momentum against USD and go short three currencies with the lowest 12-month momentum against USD. Cash not used as margin invest on overnight rates. Rebalance monthly.",
+ "prometido": {
+  "cagr": 7.61,
+  "drawdown": -45.87,
+  "sharpe": 0.3,
+  "periodo": "1989-2009",
+  "cita": "Indicative Performance 7.61% per annum, Maximum Drawdown -45.87%, Sharpe Ratio 0.3"
+ },
+ "alarmas": [
+  "OOS back-test shows slightly negative performance",
+  "el resultado se calcula sobre un indice de Deutsche Bank, no sobre la cartera descrita"
+ ]
+}

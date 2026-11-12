@@ -1,0 +1,17 @@
+{
+ "fecha": "20260923",
+ "estado": "aviso",
+ "resumen": "Noche corta y sin candidatas: se leyeron 2 documentos, se descartaron 19 y la un…",
+ "correo": "Que paso\nLa noche empezo a las 02:00 y termino a las 03:09, muy antes del limite…",
+ "criterios": "",
+ "paquete_bytes": 3793,
+ "notas": {
+  "critico": {
+   "aceptado": true,
+   "nota_antes": 0.7,
+   "nota_despues": 0.7
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

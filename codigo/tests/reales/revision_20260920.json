@@ -1,0 +1,17 @@
+{
+ "fecha": "20260920",
+ "estado": "aviso",
+ "resumen": "Noche en blanco: la etapa de investigar no leyó ningún documento (2 lecturas y 1…",
+ "correo": "Que paso\nEl pipeline arrancó a las 02:00 y terminó a las 02:46, frente a las 06:…",
+ "criterios": "",
+ "paquete_bytes": 4263,
+ "notas": {
+  "lector": {
+   "aceptado": false,
+   "nota_antes": 0.7942,
+   "nota_despues": 0.6942
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

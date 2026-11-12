@@ -1,0 +1,12 @@
+{
+ "titulo": "currency-momentum-factor",
+ "fuente": "quantpedia",
+ "agentes": [
+  "lector",
+  "formalizador",
+  "critico"
+ ],
+ "url": "https://quantpedia.com/strategies/currency-momentum-factor",
+ "cita": "currency-momentum-factor",
+ "doc_id": 23
+}

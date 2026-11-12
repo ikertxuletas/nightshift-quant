@@ -1,0 +1,38 @@
+{
+ "id": "momentum-clases-activo-rotacional",
+ "titulo": "Rotacion mensual por momentum de 12 meses entre clases de activo",
+ "fuente": {
+  "url": "https://quantpedia.com/strategies/asset-class-momentum-rotational-system",
+  "cita": "asset-class-momentum-rotational-system"
+ },
+ "tipo": "momentum_transversal",
+ "forma": "transversal",
+ "universo": {
+  "instrumentos": [
+   "SPY",
+   "EFA",
+   "TLT",
+   "GLD"
+  ],
+  "plazo": "D1"
+ },
+ "transversal": {
+  "ranking": "MOM(252)",
+  "cada_barras": 21,
+  "top": 3
+ },
+ "gestion": {},
+ "prometido": {
+  "cagr": 14.49,
+  "drawdown": -47.77,
+  "sharpe": 0.78,
+  "periodo": "1973-2009",
+  "cita": "Indicative Performance 14.49% per annum, Maximum Drawdown -47.77%, Sharpe Ratio 0.78"
+ },
+ "supuestos": [
+  "el momentum de 12 meses se aproxima con MOM(252) sobre velas diarias",
+  "el rebalanceo mensual se aproxima con cada_barras 21",
+  "BND se sustituye por TLT y GSG por GLD; VNQ no tiene equivalente en el universo"
+ ],
+ "estado": "borrador"
+}

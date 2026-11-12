@@ -1,0 +1,20 @@
+{
+ "lector": {
+  "nota": 0.7317,
+  "casos": 20,
+  "modelo": "quant-lector",
+  "fecha": "2026-09-26T00:47:25+00:00"
+ },
+ "formalizador": {
+  "nota": 0.5506,
+  "casos": 8,
+  "modelo": "quant-formalizador",
+  "fecha": "2026-09-29T04:18:42+00:00"
+ },
+ "critico": {
+  "nota": 0.7,
+  "casos": 5,
+  "modelo": "quant-critico",
+  "fecha": "2026-10-07T04:23:07+00:00"
+ }
+}

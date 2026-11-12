@@ -1,0 +1,10 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [],
+ "motivo": "Presenta una plataforma de backtesting hecha en casa y su pila tecnica; no contiene una estrategia."
+}

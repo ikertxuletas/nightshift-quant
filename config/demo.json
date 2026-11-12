@@ -1,0 +1,3 @@
+{"n_demo": 5, "capital": 5000, "risk_pct": 0.5, "stop_atr": [2, 3], "daily_loss_ref_pct": 2.0,
+ "max_positions_ref": 8, "drift_min_trades": 10, "drift_min_weeks": 6, "drift_percentile": 5,
+ "cost_ratio_flag": 1.5, "max_per_family": 2, "max_per_instrument": 1}

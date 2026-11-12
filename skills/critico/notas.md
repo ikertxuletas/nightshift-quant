@@ -1,0 +1,8 @@
+(sin notas del supervisor todavia)
+- 2026-09-16: En el motivo de rechazo pon solo defectos reales: no incluyas campos que coinciden con el extracto ni conversiones de unidades que la ficha ya explica en 'supuestos'.
+- 2026-09-19: Basa el rechazo en defectos de fondo (datos que no estan en el extracto, avisos omitidos, reglas mal trasladadas) y no cuentes como defecto una conversion de meses a barras que ya esta declarada y justificada en supuestos.
+- 2026-09-21: No rechaces una ficha solo porque fija un valor dentro del rango que sugiere la fuente, o porque convierte una frecuencia textual (por ejemplo, mensual a 21 barras) cuando esa eleccion ya figura en 'supuestos'; en esos casos anotalo como aviso, y rechaza solo si la ficha contradice el extracto.
+- 2026-09-22: En el motivo de rechazo enumera solo los defectos reales de la ficha, cada uno con su cita del extracto; no incluyas comprobaciones que salen bien (p. ej. 'el universo coincide exactamente') ni recomendaciones opcionales.
+- 2026-09-23: No rechaces una ficha por una conversion de frecuencia declarada en supuestos (p. ej. 3 anos = 156 semanas) ni por omitir campos prometidos cuyo valor en el extracto es 0; senalalo como aviso en vez de rechazar.
+- 2026-09-24: En el motivo de rechazo enumera solo los defectos que impiden aprobar la ficha, separados de las observaciones menores, y no incluyas puntos que tu mismo das por correctos.
+- 2026-09-25: No rechaces una ficha solo porque elige un valor dentro del rango que da la fuente (por ejemplo MOM(12) cuando la fuente dice 10-12 meses) o porque convierte 'mensual' a 21 barras con la conversion explicada en supuestos; rechaza solo cuando la ficha contradiga el extracto o invente algo que no esta

@@ -1,0 +1,12 @@
+{
+  "id": "ejemplo-cruce-sma-spy",
+  "titulo": "Ejemplo: cruce del precio con SMA(50) en SPY",
+  "fuente": {"url": "interno://ejemplo", "cita": "ficha de prueba del Plan 2"},
+  "tipo": "tendencia",
+  "forma": "serie_temporal",
+  "universo": {"instrumentos": ["SPY"], "plazo": "D1"},
+  "entrada": {"largo": {"cruza_arriba": ["close", "SMA(50)"]}},
+  "salida": {"largo": {"cruza_abajo": ["close", "SMA(50)"]}},
+  "gestion": {"stop": {"tipo": "atr", "valor": 3}},
+  "estado": "borrador"
+}

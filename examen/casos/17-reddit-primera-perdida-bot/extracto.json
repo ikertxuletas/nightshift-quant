@@ -1,0 +1,12 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [
+  "habla de ocho dias positivos seguidos como prueba de que el sistema funciona"
+ ],
+ "motivo": "Es el relato de un dia de operativa de un bot; no describe ninguna regla de entrada o de salida."
+}

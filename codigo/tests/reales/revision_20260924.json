@@ -1,0 +1,22 @@
+{
+ "fecha": "20260924",
+ "estado": "aviso",
+ "resumen": "Noche sin candidatas: la etapa investigar termino con codigo 1 por 4 errores de …",
+ "correo": "Que paso\nLa noche arranco a las 02:00 y termino a las 03:08, muy por delante del…",
+ "criterios": "",
+ "paquete_bytes": 5698,
+ "notas": {
+  "formalizador": {
+   "aceptado": false,
+   "nota_antes": 0.543,
+   "nota_despues": 0.4812
+  },
+  "critico": {
+   "aceptado": true,
+   "nota_antes": 0.7,
+   "nota_despues": 0.7
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

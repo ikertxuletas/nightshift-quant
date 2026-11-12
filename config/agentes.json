@@ -1,0 +1,9 @@
+{
+  "_tope_llamadas_noche": 150,
+  "_tope_llamadas_revision": 80,
+  "lector": {"modelo": "haiku", "temperatura": 0.2, "formato": "json"},
+  "formalizador": {"modelo": "sonnet", "temperatura": 0.1, "formato": "json"},
+  "critico": {"modelo": "sonnet", "temperatura": 0.1, "formato": "json"},
+  "relator": {"modelo": "haiku", "temperatura": 0.3, "formato": "texto"},
+  "mentor": {"modelo": "sonnet", "temperatura": 0.2, "formato": "json"}
+}

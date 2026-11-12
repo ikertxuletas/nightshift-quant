@@ -1,0 +1,17 @@
+{
+ "fecha": "20260927",
+ "estado": "aviso",
+ "resumen": "No se encontro el parte de esta noche (falta parte_20260927.json), asi que no se…",
+ "correo": "Que paso\nNo hay parte de la noche: el sistema indica que no existe parte_2026092…",
+ "criterios": "",
+ "paquete_bytes": 1978,
+ "notas": {
+  "formalizador": {
+   "aceptado": false,
+   "nota_antes": 0.543,
+   "nota_despues": null
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

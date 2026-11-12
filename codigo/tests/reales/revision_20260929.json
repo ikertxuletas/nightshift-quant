@@ -1,0 +1,17 @@
+{
+ "fecha": "20260929",
+ "estado": "aviso",
+ "resumen": "Noche corta (02:00-03:46) sin candidatas ni dudosas. La etapa investigar termino…",
+ "correo": "Que paso\nLa noche empezo a las 02:00 y termino a las 03:46, antes de lo previsto…",
+ "criterios": "",
+ "paquete_bytes": 4181,
+ "notas": {
+  "formalizador": {
+   "aceptado": true,
+   "nota_antes": 0.543,
+   "nota_despues": 0.5506
+  }
+ },
+ "acciones": [],
+ "error": ""
+}

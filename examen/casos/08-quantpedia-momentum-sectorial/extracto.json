@@ -1,0 +1,19 @@
+{
+ "operable": "si",
+ "tipo": "momentum_transversal",
+ "mercado": [
+  "accion"
+ ],
+ "plazo": "D1",
+ "extracto": "Use ten sector ETFs. Pick 3 ETFs with the strongest 12-month momentum into your portfolio and weight them equally. Hold them for one month and then rebalance.",
+ "prometido": {
+  "cagr": 13.94,
+  "drawdown": -46.29,
+  "sharpe": 0.54,
+  "periodo": "1928-2009",
+  "cita": "Indicative Performance 13.94% per annum, Maximum Drawdown -46.29%, Sharpe Ratio 0.54"
+ },
+ "alarmas": [
+  "el documento no dice cuales son los diez ETF sectoriales"
+ ]
+}

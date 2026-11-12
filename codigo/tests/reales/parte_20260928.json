@@ -1,0 +1,3547 @@
+{
+ "fecha": "20260928",
+ "inicio": "2026-09-28T02:00:12",
+ "desde": "2026-09-28T00:00:12+00:00",
+ "fin_previsto": "2026-09-28T06:00:00",
+ "fin_real": "2026-09-28T02:52:08",
+ "equipo": "PRINCIPAL",
+ "etapas": {
+  "precios": {
+   "inicio": 2,
+   "segundos": 1882,
+   "resultado": {
+    "codigo": 0,
+    "fecha": "2026-09-28T00:31:36+00:00",
+    "hasta": "2026-09-27",
+    "instrumentos": [
+     {
+      "instrumento": "US500",
+      "dias": 2,
+      "velas": 0,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "US100",
+      "dias": 2,
+      "velas": 120,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "US30",
+      "dias": 2,
+      "velas": 120,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "GER40",
+      "dias": 2,
+      "velas": 118,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "EU50",
+      "dias": 2,
+      "velas": 0,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "UK100",
+      "dias": 2,
+      "velas": 117,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "JP225",
+      "dias": 2,
+      "velas": 114,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "EURUSD",
+      "dias": 2,
+      "velas": 169,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "GBPUSD",
+      "dias": 2,
+      "velas": 168,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "USDJPY",
+      "dias": 2,
+      "velas": 165,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "USDCHF",
+      "dias": 2,
+      "velas": 172,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "AUDUSD",
+      "dias": 2,
+      "velas": 173,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "USDCAD",
+      "dias": 2,
+      "velas": 170,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "NZDUSD",
+      "dias": 2,
+      "velas": 173,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "EURGBP",
+      "dias": 2,
+      "velas": 180,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "EURJPY",
+      "dias": 2,
+      "velas": 170,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "XAUUSD",
+      "dias": 2,
+      "velas": 120,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "XAGUSD",
+      "dias": 2,
+      "velas": 115,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "WTI",
+      "dias": 2,
+      "velas": 120,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "BRENT",
+      "dias": 2,
+      "velas": 0,
+      "hasta": "2026-09-27",
+      "error": null
+     },
+     {
+      "instrumento": "SPY",
+      "velas": 8472,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "QQQ",
+      "velas": 6930,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IWM",
+      "velas": 6622,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EFA",
+      "velas": 6307,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EEM",
+      "velas": 5901,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "TLT",
+      "velas": 6079,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GLD",
+      "velas": 5497,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BTCUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "ETHUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "SOLUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "XRPUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "ADAUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "DOGEUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "LINKUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "AVAXUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "DOTUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "LTCUSDT",
+      "meses": 2,
+      "velas": 44640,
+      "hasta": "2026-09-27",
+      "error": null,
+      "meses_vacios": []
+     },
+     {
+      "instrumento": "A",
+      "velas": 6753,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AAPL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ABBV",
+      "velas": 3454,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ABNB",
+      "velas": 1454,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ABT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ACGL",
+      "velas": 7809,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ACN",
+      "velas": 6334,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADBE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADS.DE",
+      "velas": 7230,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ADSK",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AEE",
+      "velas": 7227,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AEP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AES",
+      "velas": 8876,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AFL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AIG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AIR.PA",
+      "velas": 6434,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AIZ",
+      "velas": 5696,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AJG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AKAM",
+      "velas": 6767,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ALB",
+      "velas": 8203,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ALGN",
+      "velas": 6452,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ALL",
+      "velas": 8386,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ALLE",
+      "velas": 3232,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ALV.DE",
+      "velas": 7627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMAT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMCR",
+      "velas": 3612,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AME",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMGN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMP",
+      "velas": 5290,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMT",
+      "velas": 7189,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AMZN",
+      "velas": 7387,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ANET",
+      "velas": 3095,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AON",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AOS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APA",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APH",
+      "velas": 8781,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APO",
+      "velas": 3896,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APP",
+      "velas": 1369,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "APTV",
+      "velas": 3734,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ARE",
+      "velas": 7379,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ARES",
+      "velas": 3119,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ATO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AVGO",
+      "velas": 4311,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AVY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AWK",
+      "velas": 4636,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AXON",
+      "velas": 6355,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AXP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "AZO",
+      "velas": 8936,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BA",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BAC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BALL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BAS.DE",
+      "velas": 7627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BAX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BAYN.DE",
+      "velas": 7627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BBY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BDX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BEI.DE",
+      "velas": 7210,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BEN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BF-B",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BG",
+      "velas": 6324,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BIIB",
+      "velas": 8819,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BKNG",
+      "velas": 6915,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BKR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BLDR",
+      "velas": 5345,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BLK",
+      "velas": 6787,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BMW.DE",
+      "velas": 7653,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BMY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BNR.DE",
+      "velas": 4192,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BNY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BR",
+      "velas": 4910,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BRK-B",
+      "velas": 7644,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BRO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BSX",
+      "velas": 8649,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BX",
+      "velas": 4846,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "BXP",
+      "velas": 7364,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "C",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CAH",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CARR",
+      "velas": 1639,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CASY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CAT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CB",
+      "velas": 8434,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CBK.DE",
+      "velas": 7627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CBOE",
+      "velas": 4096,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CBRE",
+      "velas": 5609,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CCI",
+      "velas": 7070,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CCL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CDNS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CDW",
+      "velas": 3332,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CEG",
+      "velas": 1176,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CF",
+      "velas": 5314,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CFG",
+      "velas": 3019,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CHD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CHRW",
+      "velas": 7280,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CHTR",
+      "velas": 4207,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CIEN",
+      "velas": 7454,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CINF",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CLX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CMCSA",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CME",
+      "velas": 5988,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CMG",
+      "velas": 5199,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CMI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CMS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CNC",
+      "velas": 6235,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CNP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COF",
+      "velas": 8017,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COHR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COIN",
+      "velas": 1370,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CON.DE",
+      "velas": 7627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COR",
+      "velas": 7922,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "COST",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CPAY",
+      "velas": 3968,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CPRT",
+      "velas": 8186,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CPT",
+      "velas": 8352,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CRH",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CRL",
+      "velas": 6603,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CRM",
+      "velas": 5601,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CRWD",
+      "velas": 1833,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CSCO",
+      "velas": 9218,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CSGP",
+      "velas": 7103,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CSX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CTAS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CTSH",
+      "velas": 7111,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CTVA",
+      "velas": 1845,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CVNA",
+      "velas": 2366,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CVS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "CVX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "D",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DAL",
+      "velas": 4881,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DASH",
+      "velas": 1455,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DB1.DE",
+      "velas": 6547,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DBK.DE",
+      "velas": 7647,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DDOG",
+      "velas": 1764,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DECK",
+      "velas": 8292,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DELL",
+      "velas": 2541,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DG",
+      "velas": 4241,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DGX",
+      "velas": 7490,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DHI",
+      "velas": 8637,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DHL.DE",
+      "velas": 6602,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DHR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DIS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DLR",
+      "velas": 5511,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DLTR",
+      "velas": 7942,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DOC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DOV",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DOW",
+      "velas": 1891,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DPZ",
+      "velas": 5588,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DRI",
+      "velas": 7898,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DTE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DTE.DE",
+      "velas": 7647,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DTG.DE",
+      "velas": 1221,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DUK",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DVA",
+      "velas": 7776,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DVN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "DXCM",
+      "velas": 5397,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EBAY",
+      "velas": 7044,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ECHO",
+      "velas": 4713,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ECL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ED",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EFX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EG",
+      "velas": 7796,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EIX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EL",
+      "velas": 7763,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ELV",
+      "velas": 6266,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EME",
+      "velas": 7981,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EMR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ENR.DE",
+      "velas": 1527,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EOAN.DE",
+      "velas": 6832,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EOG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EQIX",
+      "velas": 6569,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EQT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ERIE",
+      "velas": 7797,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ES",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ESS",
+      "velas": 8131,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ETN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ETR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EVRG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EW",
+      "velas": 6665,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EXC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EXE",
+      "velas": 1413,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EXPD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EXPE",
+      "velas": 5329,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "EXR",
+      "velas": 5564,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "F",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FANG",
+      "velas": 3507,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FAST",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FCX",
+      "velas": 7856,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FDS",
+      "velas": 7609,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FDX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FDXF",
+      "velas": 85,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FE",
+      "velas": 7263,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FERG",
+      "velas": 4207,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FFIV",
+      "velas": 6870,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FICO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FIS",
+      "velas": 6354,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FISV",
+      "velas": 9250,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FITB",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FIX",
+      "velas": 7357,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FLEX",
+      "velas": 8185,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FME.DE",
+      "velas": 7210,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FOX",
+      "velas": 1896,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FOXA",
+      "velas": 1897,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FRE.DE",
+      "velas": 7132,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FRT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FSLR",
+      "velas": 4993,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FTNT",
+      "velas": 4238,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "FTV",
+      "velas": 2572,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "G1A.DE",
+      "velas": 6832,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "G24.DE",
+      "velas": 2793,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GDDY",
+      "velas": 2890,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GEHC",
+      "velas": 947,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GEN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GEV",
+      "velas": 627,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GILD",
+      "velas": 8731,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GIS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GLW",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GM",
+      "velas": 3986,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GNRC",
+      "velas": 4181,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GOOG",
+      "velas": 5561,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GOOGL",
+      "velas": 5561,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GPC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GPN",
+      "velas": 6462,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GRMN",
+      "velas": 6486,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GS",
+      "velas": 6892,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "GWW",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HAL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HAS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HBAN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HCA",
+      "velas": 3910,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HEI.DE",
+      "velas": 7207,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HEN3.DE",
+      "velas": 7230,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HIG",
+      "velas": 7744,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HII",
+      "velas": 3902,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HLT",
+      "velas": 3215,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HNR1.DE",
+      "velas": 6622,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HON",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HONA",
+      "velas": 72,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HOOD",
+      "velas": 1296,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HPE",
+      "velas": 2750,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HPQ",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HRL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HSIC",
+      "velas": 7773,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HST",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HSY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HUBB",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HUM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "HWM",
+      "velas": 2488,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IBKR",
+      "velas": 4880,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IBM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ICE",
+      "velas": 5246,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IDXX",
+      "velas": 8879,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IEX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IFF",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IFX.DE",
+      "velas": 6782,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "INCY",
+      "velas": 8278,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "INTC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "INTU",
+      "velas": 8443,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "INVH",
+      "velas": 2426,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IQV",
+      "velas": 3366,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IR",
+      "velas": 2356,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IRM",
+      "velas": 7712,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ISRG",
+      "velas": 6608,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IT",
+      "velas": 8300,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ITW",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "IVZ",
+      "velas": 7822,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "J",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JBHT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JBL",
+      "velas": 8408,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JCI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JKHY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JNJ",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "JPM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KDP",
+      "velas": 4626,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KEY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KEYS",
+      "velas": 3001,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KHC",
+      "velas": 2824,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KIM",
+      "velas": 8771,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KKR",
+      "velas": 4075,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KLAC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KMB",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KMI",
+      "velas": 3928,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "KVUE",
+      "velas": 852,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "L",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LDOS",
+      "velas": 5016,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LEN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LH",
+      "velas": 9190,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LHX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LII",
+      "velas": 6832,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LIN",
+      "velas": 8629,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LITE",
+      "velas": 2811,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LLY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LMT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LNT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LOW",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LRCX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LULU",
+      "velas": 4822,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LUV",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LVS",
+      "velas": 5479,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LYB",
+      "velas": 4129,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "LYV",
+      "velas": 5222,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MA",
+      "velas": 5116,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MAA",
+      "velas": 8219,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MAR",
+      "velas": 7173,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MAS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MBG.DE",
+      "velas": 7660,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MCD",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MCHP",
+      "velas": 8438,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MCK",
+      "velas": 8021,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MCO",
+      "velas": 8029,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MDLZ",
+      "velas": 6359,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MDT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MET",
+      "velas": 6658,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "META",
+      "velas": 3609,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MGM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MKC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MLM",
+      "velas": 8205,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MMM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MNST",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MO",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MOS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MPC",
+      "velas": 3836,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MPWR",
+      "velas": 5496,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MRK",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MRK.DE",
+      "velas": 7228,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MRNA",
+      "velas": 1960,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MRSH",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MRVL",
+      "velas": 6598,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MS",
+      "velas": 8456,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MSCI",
+      "velas": 4744,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MSFT",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MSI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MTB",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MTD",
+      "velas": 7259,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MTX.DE",
+      "velas": 5417,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MU",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "MUV2.DE",
+      "velas": 7230,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NCLH",
+      "velas": 3442,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NDAQ",
+      "velas": 6099,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NDSN",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NEE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NEM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NFLX",
+      "velas": 6125,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NI",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NKE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NOC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NOW",
+      "velas": 3580,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NRG",
+      "velas": 5740,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NSC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NTAP",
+      "velas": 7761,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NTRS",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NUE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NVDA",
+      "velas": 6962,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NVR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NWS",
+      "velas": 3338,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NWSA",
+      "velas": 3338,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "NXPI",
+      "velas": 4059,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "O",
+      "velas": 8038,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ODFL",
+      "velas": 8792,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "OKE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "OMC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ON",
+      "velas": 6640,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ORCL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "ORLY",
+      "velas": 8414,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "OTIS",
+      "velas": 1639,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "OXY",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PAH3.DE",
+      "velas": 4488,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PANW",
+      "velas": 3566,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PAYX",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PCAR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PCG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PEG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PEP",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PFE",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PFG",
+      "velas": 6271,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PGR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PH",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PHM",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PKG",
+      "velas": 6705,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PLD",
+      "velas": 7254,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PLTR",
+      "velas": 1504,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PM",
+      "velas": 4662,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PNC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PNR",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PNW",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PODD",
+      "velas": 4873,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PPG",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PPL",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PRU",
+      "velas": 6235,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PSA",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PSKY",
+      "velas": 5234,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PSX",
+      "velas": 3635,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PTC",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PWR",
+      "velas": 7199,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "PYPL",
+      "velas": 2824,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "Q",
+      "velas": 230,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "QCOM",
+      "velas": 8757,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "QIA.DE",
+      "velas": 7210,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "RCL",
+      "velas": 8411,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "RDDT",
+      "velas": 631,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "REG",
+      "velas": 8282,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "REGN",
+      "velas": 8936,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "RF",
+      "velas": 9251,
+      "hasta": "2026-09-25",
+      "error": null
+     },
+     {
+      "instrumento": "RHM.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RJF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RMD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RSG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RTX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RVTY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RWE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SAP.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SBAC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SBUX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SCHW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SHL.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SHW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SIE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SJM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SLB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SMCI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNDK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNPS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SOLV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SPG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SPGI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SRE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STLD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SWK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SWKS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SY1.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "T",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TAP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TDG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TDY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TECH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TEL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TER",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TFC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TGT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TJX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TKO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TMO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TMUS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TPL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TPR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRGP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRMB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TROW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSCO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSLA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TTD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TTWO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TXN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TXT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TYL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UAL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UBER",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UDR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UHS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ULTA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UNH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UNP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UPS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "URI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "USB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "V",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VEEV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VICI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VLO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VLTO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VMC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VMRK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VNA.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VOW3.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRSK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRSN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRTX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VTR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VTRS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WAB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WAT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WBD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WDAY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WDC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WEC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WELL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WFC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WMB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WMT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WRB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WSM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WTW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WYNN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XEL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XOM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XYL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XYZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "YUM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZAL.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZBH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZBRA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZTS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     }
+    ],
+    "errores": 0,
+    "bloqueados": [
+     "WTI",
+     "BRENT",
+     "ADS.DE",
+     "ALV.DE",
+     "BAS.DE",
+     "BAYN.DE",
+     "BEI.DE",
+     "BMW.DE",
+     "CBK.DE",
+     "DBK.DE",
+     "DTE.DE",
+     "FME.DE",
+     "FRE.DE",
+     "HEI.DE",
+     "HEN3.DE",
+     "HNR1.DE",
+     "MBG.DE",
+     "MRK.DE",
+     "MUV2.DE",
+     "QIA.DE"
+    ]
+   }
+  },
+  "investigar": {
+   "inicio": 1884,
+   "segundos": 1107,
+   "resultado": {
+    "codigo": 1,
+    "explorar": 0,
+    "fuentes_con_error": 1,
+    "lectura": {
+     "leidos": 0,
+     "descartados": 0,
+     "errores": 16,
+     "errores_contenido": 0,
+     "errores_infra": 16,
+     "omitidos": 0,
+     "agotados": 0
+    },
+    "fichas": {
+     "aprobadas": 0,
+     "rechazadas": 0,
+     "no_expresables": 0,
+     "errores": 0,
+     "errores_contenido": 0,
+     "errores_infra": 0,
+     "omitidos": 0,
+     "agotados": 0
+    },
+    "validadas": 0,
+    "errores": 16,
+    "errores_contenido": 0,
+    "errores_infra": 16,
+    "omitido": ""
+   }
+  },
+  "canario": {
+   "inicio": 2991,
+   "segundos": 62,
+   "resultado": {
+    "ok": false,
+    "pasos": {
+     "lector": "ErrorModelo: fallo de conexion con quant-lector: error starting llama-server: ll…",
+     "formalizador": "no ejecutado",
+     "critico": "no ejecutado",
+     "validacion": "no ejecutado"
+    },
+    "segundos": 62.2,
+    "fallo": "canario: lector: ErrorModelo: fallo de conexion con quant-lector: error starting…"
+   }
+  },
+  "relator": {
+   "inicio": 3053,
+   "segundos": 0,
+   "resultado": {
+    "relatados": 0,
+    "errores": 0,
+    "omitidos": 0,
+    "informe": "D:\\Quant\\informes\\informe_20260928.md"
+   }
+  },
+  "mentor": {
+   "inicio": 3053,
+   "segundos": 62,
+   "resultado": {
+    "errores": {
+     "documentos_error": 16,
+     "fichas_rechazadas": 0,
+     "no_expresables": 0,
+     "fichas_invalidas": 0
+    },
+    "propuesta": {
+     "agente": null,
+     "motivo": "modelo: fallo de conexion con quant-mentor: error starting llama-server: llama-s…"
+    },
+    "aplicado": null,
+    "omitido": ""
+   }
+  },
+  "copia": {
+   "inicio": 3115,
+   "segundos": 0,
+   "resultado": {
+    "destino": "~\\OneDrive\\Quant",
+    "catalogo": true,
+    "informes": 25,
+    "skills": 35
+   }
+  }
+ },
+ "catalogo": {
+  "documentos": {
+   "descartado": 161,
+   "error": 5,
+   "no_expresable": 25,
+   "nuevo": 16
+  },
+  "fichas": {
+   "no_expresable": 25,
+   "rechazada": 8
+  },
+  "resultados": {}
+ },
+ "corte": false,
+ "errores": 2,
+ "ollama": {
+  "arrancado": false,
+  "disponible": true
+ },
+ "memoria": []
+}

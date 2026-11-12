@@ -1,0 +1,14 @@
+{
+ "operable": "no",
+ "tipo": "otro",
+ "mercado": [
+  "cripto"
+ ],
+ "plazo": "",
+ "extracto": "",
+ "prometido": {},
+ "alarmas": [
+  "la cobertura depende de contratos de evento, un instrumento que el motor no soporta"
+ ],
+ "motivo": "Propone cubrir la exposicion a bitcoin con contratos de evento de Kalshi; esos contratos no son un instrumento del universo y no hay reglas de entrada y salida sobre el precio."
+}

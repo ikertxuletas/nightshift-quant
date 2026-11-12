@@ -1,0 +1,20 @@
+{
+  "capital": 5000,
+  "riesgo_pct": 1.0,
+  "fraccion_oos": 0.30,
+  "drawdown_max": 0.20,
+  "sharpe_oos_min": 0.5,
+  "sharpe_oos_ratio_min": 0.5,
+  "costes_multiplicador": 2.0,
+  "robustez_variacion": 0.20,
+  "robustez_min": 0.70,
+  "operaciones_min": 100,
+  "operaciones_oos_min": 30,
+  "operaciones_min_posicional": 30,
+  "operaciones_oos_min_posicional": 10,
+  "dias_posicional": 20,
+  "benchmark_margen": 0.0,
+  "montecarlo_n": 1000,
+  "montecarlo_p95_dd_max": 0.30,
+  "margen_dudosa": 0.10
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ejemplo-momentum-etf",
+  "titulo": "Ejemplo: rotación mensual al ETF con más momentum a 6 meses",
+  "fuente": {"url": "interno://ejemplo", "cita": "ficha de prueba del Plan 2"},
+  "tipo": "momentum_transversal",
+  "forma": "transversal",
+  "universo": {"instrumentos": ["SPY", "QQQ", "IWM", "EFA", "EEM", "TLT", "GLD"], "plazo": "D1"},
+  "transversal": {"ranking": "MOM(126)", "cada_barras": 21, "top": 1, "bottom": 0},
+  "gestion": {},
+  "estado": "borrador"
+}

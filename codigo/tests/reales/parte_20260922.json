@@ -1,0 +1,3062 @@
+{
+ "fecha": "20260922",
+ "inicio": "2026-09-22T02:00:15",
+ "desde": "2026-09-22T00:00:15+00:00",
+ "fin_previsto": "2026-09-22T06:00:00",
+ "fin_real": "2026-09-22T02:47:39",
+ "equipo": "PRINCIPAL",
+ "etapas": {
+  "precios": {
+   "inicio": 0,
+   "segundos": 1895,
+   "resultado": {
+    "codigo": 0,
+    "fecha": "2026-09-22T00:31:50+00:00",
+    "hasta": "2026-09-21",
+    "instrumentos": [
+     {
+      "instrumento": "US500",
+      "dias": 3,
+      "velas": 1451,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "US100",
+      "dias": 3,
+      "velas": 1455,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "US30",
+      "dias": 3,
+      "velas": 1455,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "GER40",
+      "dias": 3,
+      "velas": 1448,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "EU50",
+      "dias": 3,
+      "velas": 706,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "UK100",
+      "dias": 3,
+      "velas": 1444,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "JP225",
+      "dias": 3,
+      "velas": 1409,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "EURUSD",
+      "dias": 3,
+      "velas": 1601,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "GBPUSD",
+      "dias": 3,
+      "velas": 1595,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "USDJPY",
+      "dias": 3,
+      "velas": 1614,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "USDCHF",
+      "dias": 3,
+      "velas": 1608,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "AUDUSD",
+      "dias": 1,
+      "velas": 1422,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "USDCAD",
+      "dias": 1,
+      "velas": 1421,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "NZDUSD",
+      "dias": 1,
+      "velas": 1430,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "EURGBP",
+      "dias": 1,
+      "velas": 1418,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "EURJPY",
+      "dias": 1,
+      "velas": 1436,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "XAUUSD",
+      "dias": 1,
+      "velas": 1380,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "XAGUSD",
+      "dias": 1,
+      "velas": 1374,
+      "hasta": "2026-09-21",
+      "error": null
+     },
+     {
+      "instrumento": "WTI",
+      "dias": 2139,
+      "velas": 2009634,
+      "hasta": "2024-01-13",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BRENT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SPY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "QQQ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IWM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EFA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EEM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TLT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GLD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BTCUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ETHUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SOLUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XRPUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADAUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DOGEUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LINKUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AVAXUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DOTUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LTCUSDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "A",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AAPL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ABBV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ABNB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ABT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ACGL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ACN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADBE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADS.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ADSK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AEE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AEP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AES",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AFL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AIG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AIR.PA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AIZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AJG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AKAM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ALB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ALGN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ALL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ALLE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ALV.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMAT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMCR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AME",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMGN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AMZN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ANET",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AON",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AOS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "APTV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ARE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ARES",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ATO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AVGO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AVY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AWK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AXON",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AXP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "AZO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BAC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BALL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BAS.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BAX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BAYN.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BBY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BDX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BEI.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BEN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BF-B",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BIIB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BKNG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BKR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BLDR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BLK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BMW.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BMY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BNR.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BNY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BRK-B",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BRO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BSX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "BXP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "C",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CAH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CARR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CASY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CAT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CBK.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CBOE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CBRE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CCI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CCL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CDNS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CDW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CEG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CFG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CHD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CHRW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CHTR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CIEN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CINF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CLX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CMCSA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CME",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CMG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CMI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CMS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CNC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CNP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COHR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COIN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CON.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "COST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CPAY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CPRT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CPT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CRH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CRL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CRM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CRWD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CSCO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CSGP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CSX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CTAS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CTSH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CTVA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CVNA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CVS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "CVX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "D",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DAL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DASH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DB1.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DBK.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DDOG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DECK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DELL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DGX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DHI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DHL.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DHR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DIS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DLR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DLTR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DOC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DOV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DOW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DPZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DRI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DTE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DTE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DTG.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DUK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DVA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DVN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "DXCM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EBAY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ECHO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ECL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ED",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EFX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EIX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ELV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EME",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EMR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ENR.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EOAN.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EOG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EQIX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EQT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ERIE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ES",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ESS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ETN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ETR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EVRG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EXC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EXE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EXPD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EXPE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "EXR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "F",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FANG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FAST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FCX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FDS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FDX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FDXF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FERG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FFIV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FICO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FIS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FISV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FITB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FIX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FLEX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FME.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FOX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FOXA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FRE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FRT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FSLR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FTNT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "FTV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "G1A.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "G24.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GDDY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GEHC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GEN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GEV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GILD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GIS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GLW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GNRC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GOOG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GOOGL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GPC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GPN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GRMN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "GWW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HAL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HAS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HBAN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HCA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HEI.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HEN3.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HIG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HII",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HLT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HNR1.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HON",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HONA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HOOD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HPE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HPQ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HRL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HSIC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HSY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HUBB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HUM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "HWM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IBKR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IBM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ICE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IDXX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IEX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IFF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IFX.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "INCY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "INTC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "INTU",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "INVH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IQV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IRM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ISRG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ITW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "IVZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "J",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JBHT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JBL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JCI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JKHY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JNJ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "JPM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KDP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KEY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KEYS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KHC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KIM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KKR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KLAC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KMB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KMI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "KVUE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "L",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LDOS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LEN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LHX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LII",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LIN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LITE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LLY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LMT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LNT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LOW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LRCX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LULU",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LUV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LVS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LYB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "LYV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MAA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MAR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MAS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MBG.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MCD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MCHP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MCK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MCO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MDLZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MET",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "META",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MGM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MKC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MLM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MMM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MNST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MOS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MPC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MPWR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MRK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MRK.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MRNA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MRSH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MRVL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MSCI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MSFT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MSI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MTB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MTD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MTX.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MU",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "MUV2.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NCLH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NDAQ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NDSN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NEE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NEM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NFLX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NKE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NOC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NOW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NRG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NSC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NTAP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NTRS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NUE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NVDA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NVR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NWS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NWSA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "NXPI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "O",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ODFL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "OKE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "OMC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ON",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ORCL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ORLY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "OTIS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "OXY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PAH3.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PANW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PAYX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PCAR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PCG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PEG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PEP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PFE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PFG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PGR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PHM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PKG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PLD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PLTR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PNC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PNR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PNW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PODD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PPG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PPL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PRU",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PSA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PSKY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PSX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PTC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PWR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "PYPL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "Q",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "QCOM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "QIA.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RCL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RDDT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "REG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "REGN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RHM.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RJF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RMD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ROST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RSG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RTX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RVTY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "RWE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SAP.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SBAC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SBUX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SCHW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SHL.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SHW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SIE.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SJM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SLB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SMCI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNDK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SNPS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SOLV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SPG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SPGI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SRE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STLD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "STZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SWK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SWKS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SY1.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYF",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "SYY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "T",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TAP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TDG",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TDY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TECH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TEL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TER",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TFC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TGT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TJX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TKO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TMO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TMUS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TPL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TPR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRGP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRMB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TROW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TRV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSCO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSLA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TSN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TTD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TTWO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TXN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TXT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "TYL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UAL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UBER",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UDR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UHS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ULTA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UNH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UNP",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "UPS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "URI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "USB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "V",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VEEV",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VICI",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VLO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VLTO",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VMC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VMRK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VNA.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VOW3.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRSK",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRSN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VRTX",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VTR",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VTRS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "VZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WAB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WAT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WBD",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WDAY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WDC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WEC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WELL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WFC",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WMB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WMT",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WRB",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WSM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WST",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WTW",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WY",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "WYNN",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XEL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XOM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XYL",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "XYZ",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "YUM",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZAL.DE",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZBH",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZBRA",
+      "error": null,
+      "omitido": "tiempo agotado"
+     },
+     {
+      "instrumento": "ZTS",
+      "error": null,
+      "omitido": "tiempo agotado"
+     }
+    ],
+    "errores": 0,
+    "bloqueados": [
+     "US500",
+     "US100",
+     "UK100",
+     "JP225"
+    ]
+   }
+  },
+  "investigar": {
+   "inicio": 1896,
+   "segundos": 728,
+   "resultado": {
+    "codigo": 0,
+    "explorar": 1,
+    "fuentes_con_error": 1,
+    "lectura": {
+     "leidos": 0,
+     "descartados": 0,
+     "errores": 0,
+     "omitidos": 6,
+     "agotados": 0
+    },
+    "fichas": {
+     "aprobadas": 0,
+     "rechazadas": 0,
+     "no_expresables": 0,
+     "errores": 0,
+     "omitidos": 0,
+     "agotados": 0
+    },
+    "validadas": 0,
+    "errores": 0,
+    "omitido": "pc ocupado"
+   }
+  },
+  "canario": {
+   "inicio": 2623,
+   "segundos": 155,
+   "resultado": {
+    "ok": false,
+    "pasos": {
+     "lector": "mercado=['indice']",
+     "formalizador": "no ejecutado",
+     "critico": "no ejecutado",
+     "validacion": "no ejecutado"
+    },
+    "segundos": 155.1,
+    "fallo": "canario: lector: mercado=['indice']"
+   }
+  },
+  "relator": {
+   "inicio": 2778,
+   "segundos": 0,
+   "resultado": {
+    "relatados": 0,
+    "errores": 0,
+    "omitidos": 0,
+    "informe": "D:\\Quant\\informes\\informe_20260922.md"
+   }
+  },
+  "mentor": {
+   "inicio": 2778,
+   "segundos": 66,
+   "resultado": {
+    "errores": {
+     "documentos_error": 0,
+     "fichas_rechazadas": 0,
+     "no_expresables": 0,
+     "fichas_invalidas": 0
+    },
+    "propuesta": {
+     "agente": null,
+     "motivo": "nada que cambiar"
+    },
+    "aplicado": null,
+    "omitido": ""
+   }
+  },
+  "copia": {
+   "inicio": 2844,
+   "segundos": 0,
+   "resultado": {
+    "destino": "~\\OneDrive\\Quant",
+    "catalogo": true,
+    "informes": 13,
+    "skills": 29
+   }
+  }
+ },
+ "catalogo": {
+  "documentos": {
+   "descartado": 108,
+   "error": 4,
+   "no_expresable": 21,
+   "nuevo": 6
+  },
+  "fichas": {
+   "no_expresable": 21,
+   "rechazada": 8
+  },
+  "resultados": {}
+ },
+ "corte": false,
+ "errores": 1
+}

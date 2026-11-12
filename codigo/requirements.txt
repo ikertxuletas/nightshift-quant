@@ -1,0 +1,10 @@
+numpy>=2.3
+pandas>=2.3
+pyarrow>=21
+jsonschema>=4.25
+pytest>=8.4
+requests>=2.32
+yfinance>=1.7
+lxml>=6.0
+pypdf>=6.0
+keyring>=25

@@ -1,0 +1,43 @@
+{
+ "id": "momentum-divisas-transversal",
+ "titulo": "Momentum transversal de 12 meses en divisas",
+ "fuente": {
+  "url": "https://quantpedia.com/strategies/currency-momentum-factor",
+  "cita": "currency-momentum-factor"
+ },
+ "tipo": "momentum_transversal",
+ "forma": "transversal",
+ "universo": {
+  "instrumentos": [
+   "EURUSD",
+   "GBPUSD",
+   "AUDUSD",
+   "NZDUSD",
+   "USDJPY",
+   "USDCHF",
+   "USDCAD"
+  ],
+  "plazo": "D1"
+ },
+ "transversal": {
+  "ranking": "MOM(252)",
+  "cada_barras": 21,
+  "top": 3,
+  "bottom": 3
+ },
+ "gestion": {},
+ "prometido": {
+  "cagr": 7.61,
+  "drawdown": -45.87,
+  "sharpe": 0.3,
+  "periodo": "1989-2009",
+  "cita": "Indicative Performance 7.61% per annum, Maximum Drawdown -45.87%, Sharpe Ratio 0.3"
+ },
+ "supuestos": [
+  "el universo se limita a los siete pares mayores disponibles en vez de las 10 a 20 divisas del documento",
+  "USDJPY, USDCHF y USDCAD cotizan con el dolar como base, asi que su momentum lleva el signo invertido respecto al del documento",
+  "el momentum de 12 meses se aproxima con MOM(252) sobre velas diarias",
+  "el rebalanceo mensual se aproxima con cada_barras 21"
+ ],
+ "estado": "borrador"
+}
