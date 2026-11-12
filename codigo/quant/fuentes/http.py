@@ -17,7 +17,11 @@ class ErrorFuente(RuntimeError):
 def _espera_retry_after(respuesta):
     """Delta-seconds valido y finito, acotado a RETRY_AFTER_TOPE. Fecha HTTP, vacio, ausente, negativo
     o no finito (nan/inf): None, para que el llamador caiga al backoff normal sin lanzar nunca."""
-    crudo = (getattr(respuesta, "headers", None) or {}).get("Retry-After")
+    cabeceras = getattr(respuesta, "headers", None) or {}
+    crudo, margen = cabeceras.get("Retry-After"), 0.0
+    if crudo is None:
+        # Reddit sends the seconds left in its window instead; one more second lands past the reset.
+        crudo, margen = cabeceras.get("x-ratelimit-reset"), 1.0
     if crudo is None:
         return None
     try:
@@ -26,7 +30,7 @@ def _espera_retry_after(respuesta):
         return None
     if not math.isfinite(valor):
         return None
-    return min(max(valor, 0.0), RETRY_AFTER_TOPE)
+    return min(max(valor, 0.0) + margen, RETRY_AFTER_TOPE)
 
 
 def descargar(url, sesion, reintentos=5, espera=2.0, dormir=time.sleep, timeout=30, cabeceras=None):

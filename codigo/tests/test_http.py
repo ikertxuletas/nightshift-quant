@@ -29,6 +29,13 @@ def test_429_respeta_retry_after(sesion_falsa):
     assert esperas == [30]
 
 
+def test_429_respeta_x_ratelimit_reset_de_reddit(sesion_falsa):
+    esperas = []
+    s = sesion_falsa({"u": [(429, {"x-ratelimit-reset": "29"}), b"ok"]})
+    assert http.descargar("u", s, espera=1.0, dormir=esperas.append) == b"ok"
+    assert esperas == [30]
+
+
 def test_429_retry_after_tiene_tope_de_120(sesion_falsa):
     esperas = []
     s = sesion_falsa({"u": [(429, {"Retry-After": "600"}), b"ok"]})
