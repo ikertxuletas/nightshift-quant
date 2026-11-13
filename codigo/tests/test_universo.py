@@ -75,3 +75,11 @@ def test_refrescar_acciones_rechaza_caida_del_80_por_ciento(tmp_path):
     with pytest.raises(universo.ErrorUniverso, match="80"):
         universo.refrescar_acciones(tmp_path, _html_falso(410))
     assert len(json.loads((tmp_path / "universo_acciones.json").read_text(encoding="utf-8"))) == 600
+
+
+def test_acciones_europeas_empiezan_en_2004(tmp_path):
+    (tmp_path / "universo.json").write_text(json.dumps({"instrumentos": {}}), encoding="utf-8")
+    (tmp_path / "universo_acciones.json").write_text(json.dumps(["AAPL", "SAP.DE", "AIR.PA"]), encoding="utf-8")
+    inst = universo.cargar(tmp_path)["instrumentos"]
+    assert inst["AAPL"]["desde"] == "1990-01-01"
+    assert inst["SAP.DE"]["desde"] == "2004-01-01" and inst["AIR.PA"]["desde"] == "2004-01-01"

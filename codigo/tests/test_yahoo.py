@@ -77,3 +77,16 @@ def test_descarga_que_termina_antes_no_se_guarda(tmp_path):
     r = yahoo.actualizar("SPY", INFO, tmp_path, _bajar_n(97, inicio="2023-12-01"), dormir=lambda s: None)
     assert "descarga sospechosa" in r["error"]
     assert len(datos.cargar("SPY", "D1", tmp_path)["close"]) == 100
+
+
+def test_no_guarda_la_vela_del_dia_en_curso(tmp_path):
+    r = yahoo.actualizar("SPY", INFO, tmp_path, _bajar_n(10), dormir=lambda s: None, hoy=pd.Timestamp("2024-01-11"))
+    assert (r["velas"], r["hasta"]) == (9, "2024-01-10")
+    assert pd.Timestamp(datos.cargar("SPY", "D1", tmp_path)["ts"].max()) == pd.Timestamp("2024-01-10")
+
+
+def test_adelantar_el_inicio_no_hace_sospechosa_la_descarga(tmp_path):
+    yahoo.actualizar("SPY", INFO, tmp_path, _bajar_n(100), dormir=lambda s: None)
+    tarde = {**INFO, "desde": "2024-02-11"}
+    r = yahoo.actualizar("SPY", tarde, tmp_path, _bajar_n(60, inicio="2024-02-11"), dormir=lambda s: None)
+    assert r["error"] is None and len(datos.cargar("SPY", "D1", tmp_path)["close"]) == 60

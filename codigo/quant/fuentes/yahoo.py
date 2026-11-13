@@ -6,7 +6,7 @@ from quant import datos, rutas
 from quant.fuentes import http
 
 
-def descargar(simbolo, desde, bajar=None):
+def descargar(simbolo, desde, bajar=None, hoy=None):
     if bajar is None:
         import yfinance
         bajar = yfinance.download
@@ -16,12 +16,15 @@ def descargar(simbolo, desde, bajar=None):
         raise http.ErrorFuente(f"sin datos de yahoo para {simbolo}")
     df = crudo.rename(columns=str.lower).reset_index()
     df = df.rename(columns={df.columns[0]: "ts"})
-    return df[datos.COLUMNAS].dropna(subset=["open", "high", "low", "close"])
+    df = df[datos.COLUMNAS].dropna(subset=["open", "high", "low", "close"])
+    # A run during market hours gets a partial bar for today: keep only finished days.
+    hoy = pd.Timestamp.now().normalize() if hoy is None else pd.Timestamp(hoy)
+    return df[pd.to_datetime(df["ts"]) < hoy]
 
 
-def _descarga_sospechosa(df, instrumento, raiz):
+def _descarga_sospechosa(df, instrumento, raiz, desde=None):
     try:
-        anteriores = datos.cargar(instrumento, "D1", raiz)
+        anteriores = datos.cargar(instrumento, "D1", raiz, desde=desde)
     except datos.ErrorDatos:
         return None
     guardadas = len(anteriores["ts"])
@@ -37,11 +40,11 @@ def _descarga_sospechosa(df, instrumento, raiz):
     return None
 
 
-def actualizar(instrumento, info, raiz=rutas.DATOS, bajar=None, pausa=1.0, dormir=time.sleep):
+def actualizar(instrumento, info, raiz=rutas.DATOS, bajar=None, pausa=1.0, dormir=time.sleep, hoy=None):
     resumen = {"instrumento": instrumento, "velas": 0, "hasta": None, "error": None}
     try:
-        df = descargar(info["simbolo"], info["desde"], bajar)
-        motivo = _descarga_sospechosa(df, instrumento, raiz)
+        df = descargar(info["simbolo"], info["desde"], bajar, hoy)
+        motivo = _descarga_sospechosa(df, instrumento, raiz, info["desde"])
         if motivo:
             resumen["error"] = motivo
         else:

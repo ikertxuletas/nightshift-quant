@@ -1,27 +1,33 @@
 # Quant
 
-*English: Quant is a personal, self-hosted trading-research lab written in Python. Every night a team of AI agents (Claude Code) reads public papers, turns the trading ideas into machine-readable rules, backtests and validates them with strict criteria; the survivors trade on paper in a demo, and a local web panel explains everything in plain language. It never trades real money. The project, its UI and its agents' outputs are in Spanish; the code is in English.*
+**A self-hosted trading-research lab in Python, run every night by AI agents.**
 
-Quant es un laboratorio de investigación de trading que corre en tu propio ordenador. Cada noche:
+[![Support on PayPal](https://img.shields.io/badge/Support%20this%20project-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?business=ikerchup.g%40gmail.com&currency_code=EUR)
 
-1. **Descarga precios** (Yahoo, Dukascopy, Binance) de un universo de índices, divisas, materias primas, acciones y criptomonedas.
-2. **Lee documentos públicos** (arXiv, Quantpedia, MQL5, Reddit) con agentes de IA que extraen las ideas de trading y las convierten en **fichas**: reglas exactas que el motor puede ejecutar.
-3. **Prueba cada ficha** con un motor de backtest con costes reales (comisión, diferencial y deslizamiento) y un **validador** con criterios fijos: caída máxima, años fuera de muestra, robustez de parámetros, costes dobles, Montecarlo y comparación con comprar y mantener.
-4. **Barre familias de estrategias** clásicas (cruces de medias, rupturas, reversión a la media, momento...) en todo el universo y las ordena con una nota de 0 a 100.
-5. **Mejora tus propias estrategias** en un laboratorio: un agente propone variantes cada noche, se miden solo con los años de entrenamiento y el examen final usa años que el agente nunca ve.
-6. **Opera en papel** las estrategias que aprueban, con dinero ficticio y precios reales, y retira las que se desvían de su backtest.
-7. **Lo explica todo** en un panel web local, pensado para quien no es programador: qué ha pasado, por qué gana o pierde cada estrategia y qué significa cada cifra (con glosario).
+> ☕ **Quant is free and open source.** It is built and maintained in my spare time, and every night it runs on my own Claude subscription and hardware. If it saves you time or teaches you something, a small contribution keeps it going: **PayPal → ikerchup.g@gmail.com**. Thank you!
 
-> **Aviso.** Esto es un proyecto personal de investigación y aprendizaje. No es consejo financiero, no opera dinero real y los resultados de un backtest no garantizan nada en el futuro.
+Quant runs on your own computer. Every night it:
 
-## Qué hace falta
+1. **Downloads prices** (Yahoo, Dukascopy, Binance) for a universe of indices, currencies, commodities, stocks and crypto.
+2. **Reads public documents** (arXiv, Quantpedia, MQL5, Reddit) with AI agents that extract the trading ideas and turn them into **fichas**: exact rules the engine can run.
+3. **Tests every ficha** with a backtest engine that charges real costs (commission, spread and slippage) and a **validator** with fixed criteria: maximum drawdown, out-of-sample years, parameter robustness, doubled costs, Monte Carlo and a buy-and-hold comparison.
+4. **Sweeps classic strategy families** (moving-average crosses, breakouts, mean reversion, momentum...) across the whole universe and ranks them with a 0–100 score.
+5. **Improves your own strategies** in a lab: an agent proposes variants every night, they are measured on the training years only, and the final exam uses years the agent never sees.
+6. **Paper-trades** the strategies that pass, with fake money and real prices, and retires the ones that drift away from their backtest.
+7. **Explains everything** in a local web panel made for non-programmers: what happened, why each strategy wins or loses, and what every number means (with a glossary).
 
-- **Windows 10 u 11** (las tareas nocturnas usan el Programador de tareas; el resto funciona en cualquier sistema con Python).
-- **Python 3.12 o superior** (desarrollado con 3.14).
-- **[Claude Code](https://claude.com/claude-code)** instalado y con sesión iniciada en tu suscripción: los agentes nocturnos lo llaman con `claude -p`. Sin él, el motor, el barrido, la demo y el panel funcionan igual; solo se omiten las etapas con agentes.
-- Unos 20 GB libres para los precios.
+> **Disclaimer.** This is a personal research and learning project. It is not financial advice, it never trades real money, and backtest results guarantee nothing about the future.
 
-## Instalación
+> **Language.** The code and the docs are in English. The panel, the reports and the agents' outputs are in Spanish.
+
+## Requirements
+
+- **Windows 10 or 11** (the nightly jobs use Task Scheduler; everything else runs on any system with Python).
+- **Python 3.12 or newer** (developed on 3.14).
+- **[Claude Code](https://claude.com/claude-code)** installed and logged in to your subscription: the nightly agents call it with `claude -p`. Without it the engine, the sweep, the demo and the panel still work; only the agent stages are skipped.
+- About 20 GB of free disk space for prices.
+
+## Installation
 
 ```powershell
 git clone https://github.com/ikertxuletas/quant-abierto.git Quant
@@ -31,78 +37,84 @@ python -m venv .venv
 .venv\Scripts\python.exe -m pip install -e codigo
 ```
 
-Comprueba que todo está bien (tarda un minuto; algunas pruebas se saltan hasta que tengas precios reales):
+Check that everything works (it takes a minute; some tests are skipped until you have real prices):
 
 ```powershell
 cd codigo
 ..\.venv\Scripts\python.exe -m pytest -q
 ```
 
-Firma los criterios del validador. Quant se niega a validar si `config/criterios.json` cambia sin volver a firmarlo:
+Sign the validator criteria. Quant refuses to validate if `config/criterios.json` changes without being signed again:
 
 ```powershell
 ..\.venv\Scripts\python.exe -m quant.criterios --firmar
 ```
 
-## Primeros pasos
+## First steps
 
-Desde la carpeta `codigo`:
+From the `codigo` folder:
 
 ```powershell
-# 1. Precios (la primera vez tarda horas; después solo baja lo nuevo)
+# 1. Prices (the first run takes hours; afterwards it only downloads what is new)
 ..\.venv\Scripts\python.exe -m quant.actualizar --fuente yahoo
 ..\.venv\Scripts\python.exe -m quant.actualizar
 
-# 2. Barrido de familias (puedes limitarlo: --horas 2)
+# 2. Family sweep (you can cap it: --horas 2)
 ..\.venv\Scripts\python.exe -m quant.barrido --horas 2
 
-# 3. Panel en http://127.0.0.1:20135
+# 3. Panel at http://127.0.0.1:20135
 ..\.venv\Scripts\python.exe -m quant.panel.servidor
 ```
 
-El panel solo escucha en tu ordenador y pide una clave que se genera al arrancar, en `registro/panel_clave`. Ábrelo una vez con `http://127.0.0.1:20135/?key=<la clave>` y el navegador la recordará.
+The panel only listens on your computer and asks for a key generated at startup, in `registro/panel_clave`. Open it once with `http://127.0.0.1:20135/?key=<the key>` and the browser will remember it.
 
-Para que todo corra solo cada noche, instala las tareas programadas desde PowerShell:
+To run everything on its own every night, install the scheduled tasks from PowerShell:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File codigo\instalar_tareas.ps1
 ```
 
-Crea estas tareas: la noche a las 02:00 (precios, agentes, laboratorio, demo e informe), la revisión a las 06:15, un vigilante a las 07:30, la demo cada hora, el barrido los sábados y el panel al iniciar sesión. Si tienes varios equipos y quieres que la noche corra solo en uno, define la variable de entorno `QUANT_EQUIPO` con el nombre de ese equipo.
+This creates: the night run at 02:00 (prices, agents, lab, demo and report), the review at 06:15, a watchdog at 07:30, the demo every hour, the sweep on Saturdays and the panel at logon. If you have several computers and want the night to run on only one, set the `QUANT_EQUIPO` environment variable to that computer's name.
 
-## Cómo está organizado
+## How it is organised
 
-| Carpeta | Qué hay |
+| Folder | What is inside |
 |---|---|
-| `codigo/quant/` | Motor de backtest, validador, indicadores, costes, datos y universo |
-| `codigo/quant/familias/` | Familias de estrategias del barrido y las estrategias propias (`propias.py`) |
-| `codigo/quant/investigacion/` | La noche: agentes (lector, formalizador, crítico, relator, mentor), laboratorio, asesor, revisión y diagnóstico |
-| `codigo/quant/demo/` | Demo en papel: selección, órdenes, red de seguridad y desvío frente al backtest |
-| `codigo/quant/panel/` | Panel web local (HTML generado en Python, sin framework) |
-| `skills/` | Las instrucciones de cada agente nocturno |
-| `config/` | Universo, costes, criterios del validador y demo |
-| `examen/` | Examen fijo para medir si los agentes leen bien: respuestas correctas escritas a mano y el enlace a cada documento |
-| `roles/`, `CLAUDE.md` | Cómo se reparten el trabajo las sesiones de Claude Code que mantienen el proyecto |
+| `codigo/quant/` | Backtest engine, validator, indicators, costs, data and universe |
+| `codigo/quant/familias/` | Strategy families for the sweep and your own strategies (`propias.py`) |
+| `codigo/quant/investigacion/` | The night: agents (reader, formaliser, critic, reporter, mentor), lab, advisor, review and diagnostics |
+| `codigo/quant/demo/` | Paper demo: selection, orders, safety net and drift against the backtest |
+| `codigo/quant/panel/` | Local web panel (HTML generated in Python, no framework) |
+| `skills/` | The instructions of each nightly agent |
+| `config/` | Universe, costs, validator criteria and demo |
+| `examen/` | A fixed exam that measures whether the agents read well: hand-written correct answers and the link to each document |
+| `roles/`, `CLAUDE.md` | How the Claude Code sessions that maintain the project split the work |
 
-## Añadir tus propias estrategias
+## Adding your own strategies
 
-Las estrategias propias no entran en el barrido: las trabaja el laboratorio cada noche. Vienen dos ejemplos públicos:
+Your own strategies do not enter the sweep: the lab works on them every night. Two public examples are included:
 
-- `ejemplo`: el RSI(2) de Larry Connors, adaptado al SP500 en velas de 15 minutos.
-- `manual`: cómo se traduce una operativa manual descrita con palabras (cruce de medias a favor de la media de 200, con stop y objetivo medidos en ATR y cierre antes del final de la sesión).
+- `ejemplo`: Larry Connors' RSI(2), adapted to the S&P 500 on 15-minute bars.
+- `manual`: how a manual routine described in words gets translated (a moving-average cross in the direction of the 200 average, with stop and target measured in ATR and an exit before the session closes).
 
-Para añadir la tuya:
+To add yours:
 
-1. Escribe su familia en `codigo/quant/familias/<nombre>.py` (copia `ejemplo.py`: la ficha describe entradas, salidas, gestión y horario) y regístrala en `familias/__init__.py`.
-2. Añádela a `PROPIAS` en `codigo/quant/familias/propias.py` con su instrumento, plazo y la fecha de corte del examen (`corte`): el laboratorio nunca verá los datos posteriores hasta el examen final.
-3. Pasa las pruebas. Esa noche el laboratorio empezará a proponer variantes y el panel la mostrará en Ranking › Propias.
+1. Write its family in `codigo/quant/familias/<name>.py` (copy `ejemplo.py`: the ficha describes entries, exits, management and trading hours) and register it in `familias/__init__.py`.
+2. Add it to `PROPIAS` in `codigo/quant/familias/propias.py` with its instrument, timeframe and the exam cut-off date (`corte`): the lab never sees the data after it until the final exam.
+3. Run the tests. That night the lab will start proposing variants and the panel will show it under Ranking › Propias.
 
-## Contribuir
+## Contributing
 
-Las mejoras y los avisos de fallos son bienvenidos: abre un *issue* o un *pull request*.
+Improvements and bug reports are welcome: open an *issue* or a *pull request*.
 
-Si el proyecto te resulta útil y quieres apoyarlo, puedes hacer una aportación por **PayPal** a **ikerchup.g@gmail.com**. Gracias.
+## Support the project
 
-## Licencia
+If Quant is useful to you, please consider supporting it. Every contribution, however small, helps pay for the nightly AI runs and the time spent improving it.
 
-[MIT](LICENSE). Los gráficos usan [TradingView Lightweight Charts](https://www.tradingview.com/lightweight-charts/) (Apache 2.0) y la letra [Geist](https://vercel.com/font) (OFL), incluidas en `codigo/quant/panel/static/`.
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?business=ikerchup.g%40gmail.com&currency_code=EUR)
+
+**PayPal:** ikerchup.g@gmail.com
+
+## License
+
+[MIT](LICENSE). Charts use [TradingView Lightweight Charts](https://www.tradingview.com/lightweight-charts/) (Apache 2.0) and the [Geist](https://vercel.com/font) font (OFL), both included in `codigo/quant/panel/static/`.

@@ -8,6 +8,8 @@ CLASES = {"indice", "forex", "materia", "accion", "cripto"}
 FUENTES = {"dukascopy", "yahoo", "binance"}
 URL_SP500 = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 URL_DAX = "https://en.wikipedia.org/wiki/DAX"
+# Yahoo's European daily bars before 2004 have highs below the open or close.
+DESDE_EUROPA = "2004-01-01"
 _AGENTE = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"}
 
 
@@ -32,7 +34,8 @@ def cargar(config=rutas.CONFIG):
     acciones = Path(config) / "universo_acciones.json"
     if acciones.exists():
         for t in json.loads(acciones.read_text(encoding="utf-8")):
-            instrumentos.setdefault(t, {"clase": "accion", "fuente": "yahoo", "simbolo": t, "desde": "1990-01-01"})
+            desde = DESDE_EUROPA if t.endswith((".DE", ".PA")) else "1990-01-01"
+            instrumentos.setdefault(t, {"clase": "accion", "fuente": "yahoo", "simbolo": t, "desde": desde})
     for nombre, info in instrumentos.items():
         _validar(nombre, info)
     return {"instrumentos": instrumentos}
