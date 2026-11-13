@@ -30,7 +30,7 @@ Quant runs on your own computer. Every night it:
 ## Installation
 
 ```powershell
-git clone https://github.com/ikertxuletas/quant-abierto.git Quant
+git clone https://github.com/ikertxuletas/nightshift-quant.git Quant
 cd Quant
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r codigo\requirements.txt
