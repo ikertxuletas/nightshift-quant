@@ -2,9 +2,9 @@
 
 **A self-hosted trading-research lab in Python, run every night by AI agents.**
 
-[![Support on PayPal](https://img.shields.io/badge/Support%20this%20project-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?business=ikerchup.g%40gmail.com&currency_code=EUR)
+[![Support on PayPal](https://img.shields.io/badge/Support%20this%20project-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IkerGonzalezRP)
 
-> ☕ **Quant is free and open source.** It is built and maintained in my spare time, and every night it runs on my own Claude subscription and hardware. If it saves you time or teaches you something, a small contribution keeps it going: **PayPal → ikerchup.g@gmail.com**. Thank you!
+> ☕ **Quant is free and open source.** It is built and maintained in my spare time, and every night it runs on my own Claude subscription and hardware. If it saves you time or teaches you something, a small contribution keeps it going: **[paypal.me/IkerGonzalezRP](https://paypal.me/IkerGonzalezRP)** (or PayPal to ikerchup.g@gmail.com). Thank you!
 
 Quant runs on your own computer. Every night it:
 
@@ -111,9 +111,9 @@ Improvements and bug reports are welcome: open an *issue* or a *pull request*.
 
 If Quant is useful to you, please consider supporting it. Every contribution, however small, helps pay for the nightly AI runs and the time spent improving it.
 
-[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?business=ikerchup.g%40gmail.com&currency_code=EUR)
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/IkerGonzalezRP)
 
-**PayPal:** ikerchup.g@gmail.com
+**PayPal:** [paypal.me/IkerGonzalezRP](https://paypal.me/IkerGonzalezRP) · ikerchup.g@gmail.com
 
 ## License
 
